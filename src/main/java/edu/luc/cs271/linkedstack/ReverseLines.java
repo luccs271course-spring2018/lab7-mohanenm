@@ -14,10 +14,9 @@ public class ReverseLines {
     if (!input.hasNextLine()) {
       return;
     }
+    String lineoriginal = input.nextLine();
     String line = input.nextLine();
     System.out.println(line);
     printReverse(input);
-    System.out.println(input);
-    System.out.println(line);
   }
 }
